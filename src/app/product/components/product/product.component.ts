@@ -9,7 +9,7 @@ import {
   DoCheck, 
   OnDestroy
 } from "@angular/core";
-import { Product } from './../product.model';
+import { Product } from '../../../core/models/product.model';
 
 @Component({
   selector: 'app-product',
@@ -25,20 +25,20 @@ export class ProductComponent implements OnChanges, OnInit, DoCheck, OnDestroy {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log('ngOnchanges')
-    console.log(changes)
+    // console.log('ngOnchanges')
+    // console.log(changes)
   }
   
   ngOnInit(): void {
-    console.log('ngOnInit')    
+    // console.log('ngOnInit')    
   }
 
   ngDoCheck(): void {
-    console.log('ngDoCheck')
+    // console.log('ngDoCheck')
   }
 
   ngOnDestroy(): void {
-    console.log('ngOnDestroy')
+    // console.log('ngOnDestroy')
   }
   addCart(){
     console.log('Agregado')
