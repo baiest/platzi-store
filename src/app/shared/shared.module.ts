@@ -5,6 +5,7 @@ import { ExponencialPipe } from './pipes/exponential/exponencial.pipe';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from '../material/material.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
+    MaterialModule,
   ]
 })
 export class SharedModule { }

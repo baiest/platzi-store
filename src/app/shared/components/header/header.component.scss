@@ -1,13 +1,12 @@
 :host {
-    min-height: 5%;
     display: block;
 }
 
 nav>a {
-    padding: 5px;
+    padding: 0 5px;
     text-decoration: none;
 }
 
 .active {
-    background: lightblue;
+    color: #ccc;
 }

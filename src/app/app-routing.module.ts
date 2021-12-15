@@ -32,12 +32,16 @@ const routes: Routes = [
   },
   {
     path: 'demo',
-      loadChildren: () => import('./demo/demo.module').then(m => m.DemoModule)
+    loadChildren: () => import('./demo/demo.module').then(m => m.DemoModule)
+  },
+  {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
   },
   {
     path: '**',
     component: PageNotFoundComponent
-  }
+  },
 ];
 
 @NgModule({
