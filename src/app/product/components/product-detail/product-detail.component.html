@@ -1,8 +1,10 @@
-<div><img [src]="product.image"></div>
-<div>
-    <ul>
-        <li>Nombre: {{product.title}}</li>
-        <li>Precio: {{product.price | currency}}</li>
-        <li>{{product.description}}</li>
-    </ul>
-</div>
+<section *ngIf="product" class="product-detail">
+    <div><img [src]="product.image"></div>
+    <div>
+        <ul>
+            <li>Nombre: {{product.title}}</li>
+            <li>Precio: {{product.price | currency}}</li>
+            <li>{{product.description}}</li>
+        </ul>
+    </div>
+</section>

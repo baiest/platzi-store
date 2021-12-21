@@ -12,9 +12,9 @@ SwiperCore.use([Pagination])
 })
 export class BannerComponent implements OnInit {
   images = [
-    'assets/images/banner-1.webp',
-    'assets/images/banner-2.webp',
-    'assets/images/banner-3.webp',
+    'assets/images/banner-1.png',
+    'assets/images/banner-2.png',
+    'assets/images/banner-3.png',
   ]
   constructor() { }
 
